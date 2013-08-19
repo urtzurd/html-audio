@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/pitch-shifter.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/jquery.ui.slider.min.css" />
+    <script src="js/buffer-loader.js"></script>
+    <script src="js/pitch-shifter.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Pitch ratio</div>
+            <div id="pitchRatioSlider"></div>
+            <div id="pitchRatioDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Overlap ratio</div>
+            <div id="overlapRatioSlider"></div>
+            <div id="overlapRatioDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Grain size</div>
+            <div id="grainSizeSlider"></div>
+            <div id="grainSizeDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Visualisation</div>
+            <div id="audioVisualisationSlider"></div>
+            <div id="audioVisualisationDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <div class="sliderContainer">
+            <div class="sliderLabel">Audio source</div>
+            <div id="audioSourceSlider"></div>
+            <div id="audioSourceDisplay" class="sliderDisplay"></div>
+        </div>
+
+        <canvas width="512px" height="240px"></canvas>
+
+        <p>This page needs a <a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">Web Audio API</a> enabled browser, currently only <a href="http://support.google.com/chrome/bin/answer.py?hl=en-GB&answer=95346">Chrome</a> supports it properly.</p>
+        <p>
+            In order to use the microphone, you may have to enable a configuration flag:
+            <ul>
+                <li>Go to <em>chrome://flags</em></li>
+                <li>Enable the Web Audio Input option</li>
+                <li>Restart the browser</li>
+            </ul>
+        </p>
+
+        <div class="warningContainer">
+            <strong>Use the microphone with headphones or you may get a lot of feedback!</strong>
+        </div>
+
+    </div>
+</body>
+</html>

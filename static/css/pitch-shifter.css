@@ -1,0 +1,75 @@
+a:link {
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+
+a:visited {
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+}
+
+body {
+    background-color: black;
+    text-align: justify;
+}
+
+em {
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+
+.container {
+    width: 512px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+canvas {
+    padding-top: 10px;
+    width: 512px;
+    height: 240px;
+}
+
+.sliderContainer {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.sliderLabel {
+    width: 128px;
+    float: left;
+}
+
+.sliderDisplay {
+    width: 104px;
+    float: left;
+    text-align: right;
+}
+
+#pitchRatioSlider, #overlapRatioSlider, #grainSizeSlider {
+    width: 272px;
+    float: left;
+}
+
+#audioVisualisationSlider {
+    margin-left: 144px;
+    width: 128px;
+    float: left;
+}
+
+#audioSourceSlider {
+    margin-left: 208px;
+    width: 64px;
+    float: left;
+}
+
+.warningContainer {
+    background-color: rgb(85, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 480px;
+    border-radius: 5px;
+    margin: auto;
+}
