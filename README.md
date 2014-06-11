@@ -7,4 +7,4 @@ browser supporting the Media Stream API is needed.
 
 There are three different audio graphic representations for fun, just drag the sliders and enjoy!
 
-![Waveform screenshot](https://github.com/urtzurd/html-audio/tree/master/static/img/screenshot.png "Screenshot of the waveform display")
+![Waveform screenshot](https://raw.githubusercontent.com/urtzurd/html-audio/master/static/img/screenshot.png "Screenshot of the waveform display")
