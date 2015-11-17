@@ -7,8 +7,12 @@ browser supporting the Media Stream API is needed.
 
 There are three different audio graphic representations for fun, just drag the sliders and enjoy!
 
-![Waveform screenshot](https://raw.githubusercontent.com/urtzurd/html-audio/master/static/img/screenshot.png "Screenshot of the waveform display")
+![Waveform screenshot](http://urtzurd.github.io/html-audio/static/img/screenshot.png "Screenshot of the waveform display")
 
 Live Demo
 =========
-A live demo can be found here: <a href="http://donkarlssonsan.github.io/html-audio/static/pitch-shifter.html">http://donkarlssonsan.github.io/html-audio/static/pitch-shifter.html</a>.
+A live demo can be found here: <a href="http://urtzurd.github.io/html-audio/static/">http://urtzurd.github.io/html-audio/static/</a>
+
+Thanks
+======
+[DonKarlssonSan](http://github.com/DonKarlssonSan) for updating the project to the current version of the Web Audio API.
