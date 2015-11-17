@@ -73,7 +73,7 @@ var pitchShifter = (function () {
                 audioSources[0].buffer = bufferList[0];
                 audioSources[0].loop = true;
                 audioSources[0].connect(pitchShifterProcessor);
-                audioSources[0].noteOn(0);
+                audioSources[0].start(0);
             }
         );
 
@@ -320,9 +320,7 @@ var pitchShifter = (function () {
 
         init: function () {
 
-            if ('webkitAudioContext' in window) {
-                audioContext = new webkitAudioContext();
-            } else if ('AudioContext' in window) {
+            if ('AudioContext' in window) {
                 audioContext = new AudioContext();
             } else {
                 alert('Your browser does not support the Web Audio API');
