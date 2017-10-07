@@ -38,13 +38,13 @@ var pitchShifter = (function () {
 
     initAudio = function () {
 
-        if (!navigator.webkitGetUserMedia) {
+        if (!navigator.getUserMedia) {
 
             alert('Your browser does not support the Media Stream API');
 
         } else {
 
-            navigator.webkitGetUserMedia(
+            navigator.getUserMedia(
 
                 {audio: true, video: false},
 
