@@ -11,7 +11,7 @@ There are three different audio graphic representations for fun, just drag the s
 
 Live Demo
 =========
-A live demo can be found here: <a href="http://urtzurd.github.io/html-audio/static/">http://urtzurd.github.io/html-audio/static/</a>
+A live demo can be found here: <a href="https://urtzurd.github.io/html-audio/static/">https://urtzurd.github.io/html-audio/static/</a>
 
 Thanks
 ======
