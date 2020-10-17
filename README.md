@@ -1,7 +1,7 @@
 Pitch shifter
 =============
 
-This is a very simple pith shifter using HTML5 Web Audio API. It's based in the principles of granular synthesis,
+This is a very simple pitch shifter using HTML5 Web Audio API. It's based in the principles of granular synthesis,
 instead of FFT analysis and transformation, to keep things simple and fast. In order to use the microphone input, a
 browser supporting the Media Stream API is needed.
 
